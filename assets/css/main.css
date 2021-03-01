@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.player {
+    background-color: #b9b9b9;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.player  .fa-pause{
+    display:none;
+}
+
+.player.playing .fa-play{
+    display:none;
+}
+
+.player.playing .fa-pause{
+    display:block;
+}
+
+.dashboard {
+    padding: 16px 16px 14px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 480px;
+    border-bottom: 1px solid #ebebed;
+    margin: auto;
+    border-radius: 2px;
+
+}
+
+.dashboard header{
+    margin :auto;
+    text-align: center;
+}
+
+.dashboard header h4{
+    color : red;
+}
+
+.cd {
+    padding : 12px;
+    display:flex;
+    margin :auto;
+    width :200px;
+}
+
+.cd .cd-thumb {
+    width :100%;
+    padding-top: 100%;
+    border-radius:50%;
+    background-color:#333;
+    background-size: cover;
+    margin : auto;
+    /* height: 200px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: auto; */
+}
+
+.control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.control .btn{
+    width:20%;
+    text-align: center;
+    font-size: 18px;
+    padding :12px 0;
+}
+
+.btn.btn-toggle-play{
+    width:46.4px;
+    font-size:20px;
+    color :#fff;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn > i{
+    cursor: pointer;
+}
+
+.progress {
+    width: 100%;
+    padding : 12px 0;
+    margin : 0 12px;
+    cursor: pointer;
+}
+
+.playlist {
+    max-width: 480px;
+    margin : auto;
+    margin-top: 460px;
+}
+
+.song {
+    margin-bottom: 8px;
+    background-color :#fff;
+    max-width: 480px;
+    display:flex;
+    justify-content:center;
+    padding : 8px 4px;
+    border-radius: 2px;
+}
+
+.song .thumb {
+    width:40px;
+    height: 40px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 12px;
+
+}
+
+.song .body {
+    flex:1;
+    margin-left: 24px;
+}
+.song .title {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+.song .author {
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.song .option {
+    width:10%;
+    text-align: center;
+    align-self: center;
+}
