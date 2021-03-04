@@ -56,8 +56,8 @@ const app = {
             image: "./assets/image/anh5.jpg"
         },
         {
-            name: 'Viên Đạn Phiêu Dạt',
-            singer: 'Kiều Mini',
+            name: 'Viên Đạn Phiêu Bạt',
+            singer: 'Mạt + Lưu Húc Dương',
             path: "./assets/music/6.vien_dan_phieu_dat.mp3",
             image: "./assets/image/anh6.jpg"
         },
