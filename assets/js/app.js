@@ -96,6 +96,12 @@ const app = {
             singer: 'Duyên Bún',
             path: "./assets/music/10.ngo_nhu_la_giac_mo.mp3",
             image: "./assets/image/anh10.jpg"
+        },
+        {
+            name: 'Nocturne',
+            singer: 'Secret Garden',
+            path: "./assets/music/11.Secret Garden - Nocturne.mp3",
+            image: "./assets/image/anh11.jpg"
         }
     ],
     setConfig: function(key,value) {
